@@ -1,7 +1,7 @@
 
-$('section.awSlider .carousel').carousel({
+$('#carousel-slider-photoshop').carousel({
 	pause: "hover",
-  interval: 2000
+	interval: 3000
 }); 
 
 var startImage = $('section.awSlider .item.active > img').attr('src');
